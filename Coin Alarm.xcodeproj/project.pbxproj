@@ -16,6 +16,9 @@
 		2C266A3727E0A50E0060F9F4 /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C266A3627E0A50E0060F9F4 /* AlarmViewController.swift */; };
 		2C266A3927E0A5920060F9F4 /* SetAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C266A3827E0A5920060F9F4 /* SetAlarmViewController.swift */; };
 		2C266A3B27E0A5FD0060F9F4 /* GoAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C266A3A27E0A5FD0060F9F4 /* GoAlarmView.swift */; };
+		2C266A3D27E0E3F10060F9F4 /* NomicsAPICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C266A3C27E0E3F10060F9F4 /* NomicsAPICaller.swift */; };
+		2C266A4027E0E8F00060F9F4 /* CoinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C266A3F27E0E8F00060F9F4 /* CoinTableViewCell.swift */; };
+		2C266A4327E0F5A40060F9F4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C266A4227E0F5A30060F9F4 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		2C266A3627E0A50E0060F9F4 /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
 		2C266A3827E0A5920060F9F4 /* SetAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetAlarmViewController.swift; sourceTree = "<group>"; };
 		2C266A3A27E0A5FD0060F9F4 /* GoAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoAlarmView.swift; sourceTree = "<group>"; };
+		2C266A3C27E0E3F10060F9F4 /* NomicsAPICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomicsAPICaller.swift; sourceTree = "<group>"; };
+		2C266A3F27E0E8F00060F9F4 /* CoinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinTableViewCell.swift; sourceTree = "<group>"; };
+		2C266A4227E0F5A30060F9F4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,7 @@
 		2C266A1827DFF7850060F9F4 /* Coin Alarm */ = {
 			isa = PBXGroup;
 			children = (
+				2C266A4127E0F0060060F9F4 /* Model */,
 				2C266A3327DFFC1F0060F9F4 /* Services */,
 				2C266A3227DFFC0A0060F9F4 /* Extensions */,
 				2C266A3127DFFBEE0060F9F4 /* View */,
@@ -95,6 +102,7 @@
 		2C266A3127DFFBEE0060F9F4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2C266A3E27E0E8D70060F9F4 /* Cell */,
 				2C266A3A27E0A5FD0060F9F4 /* GoAlarmView.swift */,
 			);
 			path = View;
@@ -112,8 +120,25 @@
 			children = (
 				2C266A1B27DFF7850060F9F4 /* SceneDelegate.swift */,
 				2C266A1927DFF7850060F9F4 /* AppDelegate.swift */,
+				2C266A3C27E0E3F10060F9F4 /* NomicsAPICaller.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		2C266A3E27E0E8D70060F9F4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2C266A3F27E0E8F00060F9F4 /* CoinTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2C266A4127E0F0060060F9F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C266A4227E0F5A30060F9F4 /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +216,10 @@
 				2C266A2E27DFF7B10060F9F4 /* PresentViewController.swift in Sources */,
 				2C266A3927E0A5920060F9F4 /* SetAlarmViewController.swift in Sources */,
 				2C266A1C27DFF7850060F9F4 /* SceneDelegate.swift in Sources */,
+				2C266A4327E0F5A40060F9F4 /* Model.swift in Sources */,
 				2C266A3527DFFC550060F9F4 /* MainViewController.swift in Sources */,
+				2C266A4027E0E8F00060F9F4 /* CoinTableViewCell.swift in Sources */,
+				2C266A3D27E0E3F10060F9F4 /* NomicsAPICaller.swift in Sources */,
 				2C266A3B27E0A5FD0060F9F4 /* GoAlarmView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
